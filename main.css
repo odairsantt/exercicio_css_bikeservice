@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px;
+    background-color: rgb(44, 75, 132);
+    color: antiquewhite;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1,
+section h2 {
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 22px;
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.site-logo {
+    margin-right: 32px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos-list li {
+    display: block;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.logo-site {
+    height: 550px;
+    margin-right: 32px;
+}
+
+.container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.logos-list li img {
+    height: 25px;
+}
+
+.logos-list li {
+    display: inline;
+}
+
+section ul li .img01 {
+    height: 40px;
+}
+
+.social-links img {
+    height: 34px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+form button {
+    background-color: rgb(44, 75, 132);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #454cce;
+}
+
+input:focus, textarea:focus {
+    outline-color: #454cce;
+}
+
+.adress p {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(44, 75, 132);
+    color: rgb(255, 255, 255);
+    padding: 16px 0;
+}
